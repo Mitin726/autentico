@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+    height: 40px;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+nav a:hover {
+    color: white;
+}
