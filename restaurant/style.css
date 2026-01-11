@@ -1,12 +1,18 @@
-body {
+* {
     margin: 0;
-    background-color: aqua;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
 }
+
 
 header {
     display: flex;
     height: 40px;
-    background-color: bisque;
+    background: linear-gradient(
+    to right,
+    #8C592E,
+    #CC9D7A
+    );
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -14,11 +20,40 @@ header {
 
 nav a {
     text-decoration: none;
+    font-size: 23px;
     color: black;
-    font-weight: 600;
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 nav a:hover {
     color: white;
 }
+
+#first-view {
+    background-image: url(/restaurant/assets/img/reposteria.jpg);
+    height: 700px;
+    display: grid;
+    align-items: center;
+    place-items: left;
+}
+
+#first-view-text {
+    width: 900px;
+    height: 700px;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.title {
+    font-size: 230px;
+}
+
+.text {
+    font-size: 45px;
+}
+
+
+
+
