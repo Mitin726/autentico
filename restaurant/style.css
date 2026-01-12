@@ -1,3 +1,5 @@
+/*First view*/
+
 * {
     margin: 0;
     font-family: 'Great Vibes', cursive;
@@ -33,7 +35,6 @@ nav a:hover {
     background-image: url(/restaurant/assets/img/reposteria.jpg);
     height: 700px;
     display: grid;
-    align-items: center;
     place-items: left;
 }
 
@@ -54,6 +55,62 @@ nav a:hover {
     font-size: 45px;
 }
 
+/*Menu*/
 
+#menu h2 {
+    padding-top: 10px;
+    color: #F7F3EE;
+    text-align: center;
+    font-size: 80px;
+}
 
+#menu {
+    background-image: url(/restaurant/assets/img/mesa-fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1300px;
+}
 
+#menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    gap: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.menu-item {
+    height: 500px;
+    width: 500px;
+    background-color: #F7F3EE;
+    border-radius: 20px;
+    padding: 26px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.35);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu-image {
+    border-radius: 15px;
+}
+
+.menu-item figcaption {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.menu-item p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+/*Place your order*/
+
+/*Footer*/
+
+footer {
+    font-size: 20px;
+    text-align: center;
+}

@@ -6,6 +6,7 @@
         <title>AUTÉNTICO</title>
         <link rel="stylesheet" href="/restaurant/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
         <link rel="icon" href="/restaurant/assets/img/autentico_icon.png" type="image/png">
     </head>
     <body>
@@ -13,7 +14,7 @@
             <a href=""><img id="autentico-icon" width="180" src="/restaurant/assets/img/autentico.png" alt="Autentico Icon"></a>
             <nav id="header-nav">
                 <a href="">About us</a>
-                <a href="">Menu</a>
+                <a href="#menu">Menu</a>
                 <a href="">Order</a>
             </nav>
         </header>
@@ -22,50 +23,67 @@
                 <article id="first-view">
                     <div id="first-view-text">
                         <div>
-                            <h1 class="title">Autentico</h1>
+                            <h1 class="title">Auténtico</h1>
                             <p class="text">
-                                Marca Colombiana con la intención de cambiar<br>
-                                la manera en que vemos la reposteria, demostrando<br>
-                                como comer saludable y rico al mismo tiempo.
+                                A Colombian brand with the intention of changing<br>
+                                the way we see baking, proving that eating healthy<br>
+                                can also be delicious.
                             </p>
                         </div>
                     </div>
                 </article>
             </section>
+            <div class="transition"></div>
             <section id="menu">
-                <h2>Menu</h2>
-                <article class="menu-item">
-                    <figure>
-                        <img>
-                        <figcaption><h3></h3></figcaption>
-                    </figure>
-                    <p></p>
-                </article>
-                <article class="menu-item">
-                    <figure>
-                        <img>
-                        <figcaption><h3></h3></figcaption>
-                    </figure>
-                    <p></p>
-                </article>
-                <article class="menu-item">
-                    <figure>
-                        <img>
-                        <figcaption><h3></h3></figcaption>
-                    </figure>
-                    <p></p>
-                </article>
-                <article class="menu-item">
-                    <figure>
-                        <img>
-                        <figcaption><h3></h3></figcaption>
-                    </figure>
-                    <p></p>
-                </article>
+                <h2>~ Autentic Menu ~</h2>
+                <div id="menu-grid">
+                    <article class="menu-item">
+                        <figure>
+                            <img class="menu-image" src="/restaurant/assets/img/pieLimon.png" alt="Lemon pie" width="320">
+                            <figcaption><h3>Lemon Pie</h3></figcaption>
+                        </figure>
+                        <p>
+                            A refreshing lemon pie with a creamy citrus filling and a buttery crust, topped with lightly toasted meringue.<br>
+                            <i>15.000 - COP</i>
+                        </p>
+                    </article>
+                    <article class="menu-item">
+                        <figure>
+                            <img class="menu-image" src="/restaurant/assets/img/napoleon.png" alt="Napoleon Dessert" width="320">
+                            <figcaption><h3>Napoleon Dessert</h3></figcaption>
+                        </figure>
+                        <p>
+                            A layered dessert made with Ducales cookies, smooth cream, and rich chocolate, creating a perfect balance of crunch and sweetness.<br>
+                            <i>10.000 - COP</i>
+                        </p>
+
+                    </article>
+                    <article class="menu-item">
+                        <figure>
+                            <img class="menu-image" src="/restaurant/assets/img/rolloCanela.png" alt="cinnamon roll" width="320">
+                            <figcaption><h3>Cinnamon Roll</h3></figcaption>
+                        </figure>
+                        <p>
+                            A soft and fluffy cinnamon roll, filled with warm spices and finished with a sweet, creamy glaze.<br>
+                            <i>8.000  - COP</i>
+                        </p>
+                    </article>
+                    <article class="menu-item">
+                        <figure>
+                            <img class="menu-image" src="/restaurant/assets/img/redVelvet.png" alt="Red Velvet Cake" width="320">
+                            <figcaption><h3>Red Velvet Cake</h3></figcaption>
+                        </figure>
+                        <p>
+                            A moist red velvet cake with a deep red color, layered with smooth and creamy cream cheese frosting.<br>
+                            <i>20.000 - COP</i>
+                        </p>
+                    </article>
+                </div>
             </section>
             <section id="order">
                 <form>
-
+                    <h2>~ Place Your Order ~</h2>
+                    <label><input type="number" max="4" min="0"></label>
                 </form>
             </section>
         </main>
