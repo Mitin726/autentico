@@ -13,9 +13,9 @@
         <header>
             <a href=""><img id="autentico-icon" width="180" src="/restaurant/assets/img/autentico.png" alt="Autentico Icon"></a>
             <nav id="header-nav">
-                <a href="">About us</a>
+                <a href="#first-view">About us</a>
                 <a href="#menu">Menu</a>
-                <a href="">Order</a>
+                <a href="#order">Order</a>
             </nav>
         </header>
         <main>
@@ -33,7 +33,6 @@
                     </div>
                 </article>
             </section>
-            <div class="transition"></div>
             <section id="menu">
                 <h2>~ Autentic Menu ~</h2>
                 <div id="menu-grid">
@@ -82,8 +81,15 @@
             </section>
             <section id="order">
                 <form>
-                    <h2>~ Place Your Order ~</h2>
-                    <label><input type="number" max="4" min="0"></label>
+                    <h2>~ Place Your Order ~</h2><hr>
+                    <label>Number of items: <br><input type="number" max="10" min="0"></label><br>
+                    <label>Select Your Desserts</label>
+                    <div id="checkbox-grid">
+                        <label><input type="checkbox">Lemon Pie<br></label>
+                        <label><input type="checkbox">Napoleon Dessert<br></label>
+                        <label><input type="checkbox">Cinnamon Roll<br></label>
+                        <label><input type="checkbox">Red Velvet Cake<br></label>
+                    </div>
                 </form>
             </section>
         </main>

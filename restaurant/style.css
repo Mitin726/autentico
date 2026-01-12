@@ -108,6 +108,37 @@ nav a:hover {
 
 /*Place your order*/
 
+#order {
+    background-color: aqua;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: #8C592E;
+    height: 800px;
+    width: 800px;
+    text-align: center;
+}
+
+form h2 {
+    padding: 10px;
+    font-size: 50px;
+}
+
+form label {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+#checkbox-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
 /*Footer*/
 
 footer {
