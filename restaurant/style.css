@@ -109,7 +109,7 @@ nav a:hover {
 /*Place your order*/
 
 #order {
-    background-color: aqua;
+    background-image: url(/restaurant/assets/img/repisa.png);
     height: 1000px;
     display: flex;
     align-items: center;
@@ -117,10 +117,11 @@ nav a:hover {
 }
 
 form {
-    background-color: #8C592E;
-    height: 800px;
+    background-color: #e83737;
+    height: 600px;
     width: 800px;
     text-align: center;
+    border-radius: 20px;
 }
 
 form h2 {
@@ -128,15 +129,26 @@ form h2 {
     font-size: 50px;
 }
 
+form h3 {
+    font-family: 'Playfair Display', serif;
+    padding-top: 30px;
+}
+
 form label {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
+    padding-top: 10px;
 }
 
 #checkbox-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-bottom: 30px;
+}
+
+textarea::placeholder {
+    font-size: 25px;
 }
 
 /*Footer*/
@@ -144,4 +156,5 @@ form label {
 footer {
     font-size: 20px;
     text-align: center;
+    padding: 10px;
 }

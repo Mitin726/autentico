@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./restaurant/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-        <link rel="icon" href="/restaurant/assets/img/autentico_icon.png" type="image/png">
+        <link rel="icon" href="./restaurant/assets/img/autentico_icon.png" type="image/png">
     </head>
     <body>
         <header>
@@ -81,20 +81,23 @@
             </section>
             <section id="order">
                 <form>
-                    <h2>~ Place Your Order ~</h2><hr>
-                    <label>Number of items: <br><input type="number" max="10" min="0"></label><br>
-                    <label>Select Your Desserts</label>
+                    <h2>~ Place Your Order ~</h2>
+                    <label id="items-number">Number of items: <br><input type="number" max="4" min="0"></label><br>
+                    <h3>Select Your Desserts</h3>
                     <div id="checkbox-grid">
                         <label><input type="checkbox">Lemon Pie<br></label>
                         <label><input type="checkbox">Napoleon Dessert<br></label>
                         <label><input type="checkbox">Cinnamon Roll<br></label>
                         <label><input type="checkbox">Red Velvet Cake<br></label>
                     </div>
+                    <label>Recomendations..</label><br>
+                    <textarea rows="10" cols="120" placeholder="Type your recomendations for your order..."></textarea><br>
+                    <input type="submit" value="Send and Enjoy">
                 </form>
             </section>
         </main>
         <footer>
-            <p>Made with love by Mitin726</p>
+            <p>~ Made with love by Mitin726 ~</p>
         </footer>
     </body>
 </html>
