@@ -6,7 +6,6 @@
     font-weight: bold;
 }
 
-
 header {
     display: flex;
     height: 40px;
@@ -32,7 +31,7 @@ nav a:hover {
 }
 
 #first-view {
-    background-image: url(/restaurant/assets/img/reposteria.jpg);
+    background-image: url(assets/img/reposteria.jpg);
     height: 700px;
     display: grid;
     place-items: left;
@@ -65,7 +64,7 @@ nav a:hover {
 }
 
 #menu {
-    background-image: url(/restaurant/assets/img/mesa-fondo.png);
+    background-image: url(assets/img/mesa-fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 1300px;
@@ -109,7 +108,7 @@ nav a:hover {
 /*Place your order*/
 
 #order {
-    background-image: url(/restaurant/assets/img/repisa.png);
+    background-image: url(assets/img/repisa.png);
     height: 1000px;
     display: flex;
     align-items: center;
